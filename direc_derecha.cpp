@@ -10,6 +10,7 @@ int main() {
     int* arr = new int[n];
     cout << "Ingrese los " << n << " elementos del arreglo:" << endl;
     for (int i = 0; i < n; i++) {
+	}
         cout << "Elemento [" << i + 1 << "]: ";
         cin >> arr[i];
     }
