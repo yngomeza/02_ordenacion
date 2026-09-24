@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -33,8 +34,12 @@ int main() {
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
-    cout << endl;
+    cout << endl << endl;
 
     delete[] arr;
+
+    cout << "Presione cualquier tecla para salir...";
+    cin.ignore();
+    getch();
     return 0;
 }
